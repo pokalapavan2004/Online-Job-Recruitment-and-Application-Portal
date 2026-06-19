@@ -14,10 +14,9 @@ const app = express();
 connectDatabase();
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: ['https://pavan-job-portal-bvgz.onrender.com', 'http://localhost:3000'],
   credentials: true
 }));
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
