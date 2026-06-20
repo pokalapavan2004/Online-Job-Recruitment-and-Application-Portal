@@ -85,6 +85,12 @@ const Register = () => {
   return (
     <div className="auth-container">
       <div className="auth-card">
+        {/*  Home Button block added here */}
+        <div className="auth-home-nav">
+          <Link to="/" className="frontend/src/components/home/HomePage.js">
+            Home
+          </Link>
+        </div>
         <div className="auth-header">
           <h2>Create Account</h2>
         </div>

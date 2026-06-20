@@ -49,6 +49,12 @@ const Login = () => {
   return (
     <div className="auth-container">
       <div className="auth-card">
+        {/* Home Button added here */}
+        <div className="auth-home-nav">
+          <Link to="/" className="frontend/src/components/home/HomePage.js">
+            ←  Home
+          </Link>
+        </div>
         <div className="auth-header">
           <h2>Job Portal Login</h2>
         </div>
