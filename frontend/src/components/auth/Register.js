@@ -87,9 +87,9 @@ const Register = () => {
       <div className="auth-card">
         {/*  Home Button block added here */}
         <div className="auth-home-nav">
-          <Link to="/" className="frontend/src/components/home/HomePage.js">
+          <button><Link to="/" className="frontend/src/components/home/HomePage.js">
             Home
-          </Link>
+          </Link></button>
         </div>
         <div className="auth-header">
           <h2>Create Account</h2>

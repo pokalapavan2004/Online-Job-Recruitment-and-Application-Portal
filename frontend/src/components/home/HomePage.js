@@ -26,8 +26,15 @@ const HomePage = () => {
       {/* Navigation Header */}
       <nav className="home-navbar">
         <div className="navbar-content">
-          <div className="logo">
-            <h2>Job Portal</h2>
+         <div className="logo">
+            <Link to="/" className="brand-logo-link">
+              <img 
+                src="/logo.jpg" /* Make sure extension matches your file (.jpg or .png) */
+                alt="Job Portal Logo" 
+                className="header-logo-icon" 
+              />
+              <span className="brand-text">Job Portal</span>
+            </Link>
           </div>
           <div className="nav-links">
             <button onClick={() => navigate('/login')} className="nav-link">
