@@ -29,7 +29,7 @@ const HomePage = () => {
          <div className="logo">
             <Link to="/" className="brand-logo-link">
               <img 
-                src="/frontend/src/components/home/website logo.jpg" /* Make sure extension matches your file (.jpg or .png) */
+                src="website logo.jpg" /* Make sure extension matches your file (.jpg or .png) */
                 alt="Job Portal Logo" 
                 className="header-logo-icon" 
               />
@@ -37,7 +37,7 @@ const HomePage = () => {
             </Link>
           </div>
           <div className="nav-links">
-            <button onClick={() => navigate('/login')} className="nav-link">
+            <button onClick={() => navigate('/login')} className="btn btn-primary">
               Login
             </button>
             <button onClick={() => navigate('/register')} className="btn btn-primary">

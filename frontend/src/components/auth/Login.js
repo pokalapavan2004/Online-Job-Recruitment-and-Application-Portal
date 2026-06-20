@@ -51,7 +51,7 @@ const Login = () => {
       <div className="auth-card">
         {/* Home Button added here */}
         <div className="auth-home-nav">
-          <button><Link to="/" className="frontend/src/components/home/HomePage.js">
+          <button><Link to="/" className="btn btn-primary">
              Home
           </Link></button>
         </div>

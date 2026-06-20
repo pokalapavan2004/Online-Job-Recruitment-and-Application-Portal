@@ -67,16 +67,6 @@
   align-items: center;
 }
 
-.nav-link {
-  background: none;
-  border: none;
-  color: var(--text-dark);
-  font-size: 1rem;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  transition: color 0.3s;
-}
-
 .nav-link:hover {
   color: var(--primary-purple);
 }
