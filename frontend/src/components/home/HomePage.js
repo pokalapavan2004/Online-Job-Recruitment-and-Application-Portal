@@ -29,7 +29,7 @@ const HomePage = () => {
          <div className="logo">
             <Link to="/" className="brand-logo-link">
               <img 
-                src="/logo.jpg" /* Make sure extension matches your file (.jpg or .png) */
+                src="/frontend/src/components/home/website logo.jpg" /* Make sure extension matches your file (.jpg or .png) */
                 alt="Job Portal Logo" 
                 className="header-logo-icon" 
               />
