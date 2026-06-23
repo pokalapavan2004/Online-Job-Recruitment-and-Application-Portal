@@ -51,9 +51,9 @@ const Login = () => {
       <div className="auth-card">
         {/* Home Button added here */}
         <div className="auth-home-nav">
-          <button><Link to="/" className="btn btn-primary">
+          <Link to="/" className="btn btn-primary">
              Home
-          </Link></button>
+          </Link>
         </div>
         <div className="auth-header">
           <h2>Job Portal Login</h2>
